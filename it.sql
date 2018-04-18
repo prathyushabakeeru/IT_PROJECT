@@ -36,7 +36,7 @@ CREATE TABLE `candidate` (
 
 LOCK TABLES `candidate` WRITE;
 /*!40000 ALTER TABLE `candidate` DISABLE KEYS */;
-INSERT INTO `candidate` VALUES (1,'b',1,5),(2,'a',2,6),(3,'c',3,7),(1,'a',1,4),(2,'b',2,5),(3,'c',3,6);
+INSERT INTO `candidate` VALUES (1,'a',1,5),(2,'b',2,6),(3,'c',3,7),(1,'a',1,4),(2,'b',2,5),(3,'c',3,6);
 /*!40000 ALTER TABLE `candidate` ENABLE KEYS */;
 UNLOCK TABLES;
 
