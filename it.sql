@@ -63,7 +63,7 @@ CREATE TABLE `login` (
 
 LOCK TABLES `login` WRITE;
 /*!40000 ALTER TABLE `login` DISABLE KEYS */;
-INSERT INTO `login` VALUES (1,'a','1a',2,5),(2,'b','3b',3,6),(3,'b','2c',1,7);
+INSERT INTO `login` VALUES (1,'a','1a',2,5),(2,'b','2b',3,6),(3,'c','3c',1,7);
 /*!40000 ALTER TABLE `login` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
